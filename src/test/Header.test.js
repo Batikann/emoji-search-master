@@ -7,6 +7,7 @@ describe('Header Render Test', () => {
   let headerComp
   beforeEach(() => {
     render(<Header />)
+    //Header emoji search mi ona baktık.
     headerComp = screen.getByText('Emoji Search')
   })
   test('should be have emoji search in header', () => {
